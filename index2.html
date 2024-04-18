@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0.00, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let livros = [
+            {
+                titulo: 'A biblioteca da meia noite',
+                autor: 'Matt Haig',
+                ano: 2020,
+                emprestado: true,
+                categorias: ['romance', 'fantasia'],
+                revisoes:
+                    {
+                        comentario: 'Ótimo livro!',
+                        avaliacao: 5
+                    }
+
+            }
+        ]
+        console.log(` O titulo do livro é:${livros[0].titulo}\n O autor do livro é:${livros[0].autor}\n O ano de lançamento:${livros[0].ano}\n O livro está emprestado?${livros[0].emprestado}\n As categorias são:${livros[0].categorias[0]}\n Os comentários são:${livros[0].revisoes.comentario}\n As avaliações deste livro são: ${livros[0].revisoes.avaliacao}`)
+
+
+
+    </script>
+</body>
+
+</html>

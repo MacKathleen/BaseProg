@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0.00, initial-scale=1.0">
+    <title>AplicaDesconto</title>
+</head>
+
+<body>
+    <script>
+
+
+        function aplicaDesconto(preco, desconto) {
+            let valorDesconto = preco * (desconto / 100);
+            let precoFinal = preco - valorDesconto;
+            return precoFinal;
+        }
+
+        let preco = 1500;
+        let porcentagem = 15;
+        let precofinal = aplicaDesconto(preco, desconto);
+
+        console.log('O preço inicial foi de:'+ preco);
+        console.log ('O preço com o desconto:'+desconto);
+
+
+
+    </script>
+</body>
+
+</html>
